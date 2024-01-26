@@ -1,0 +1,28 @@
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  font-family:'Times New Roman', Times, serif;
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+.autocomplete-active {
+  background-color: rgba(108, 88, 76, 0.7) !important; 
+  color: #ffffff; 
+}
